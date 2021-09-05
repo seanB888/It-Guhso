@@ -53,6 +53,7 @@ class APIService {
     }
     
     @available(iOS 15, *)
+    // allows to run on the main thread
     @MainActor
     func getJSON<T: Decodable>(urlString: String,
                                dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,

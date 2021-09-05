@@ -41,6 +41,18 @@ struct NewsListView: View {
                     })
                     .buttonStyle(PlainButtonStyle())
                 }
+                if #available(iOS 15, *) {
+                    if article.image != nil {
+                        AsyncImage(url: article.imageURL) { image in
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                        } placeholder: {
+                            ProgressView()
+                        }
+
+                    }
+                }
                 if let image = article.image {
                     Image(uiImage: image)
                         .resizable()
