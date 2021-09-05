@@ -18,6 +18,8 @@
 		87EE788126E46D8E00B6A245 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE788026E46D8E00B6A245 /* ArticleViewModel.swift */; };
 		87EE788326E4792D00B6A245 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE788226E4792D00B6A245 /* String+Extension.swift */; };
 		87EE788526E4816200B6A245 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE788426E4816200B6A245 /* NewsListView.swift */; };
+		87EE788726E493DB00B6A245 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE788626E493DA00B6A245 /* Country.swift */; };
+		87EE788926E503F500B6A245 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EE788826E503F400B6A245 /* CountryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		87EE788026E46D8E00B6A245 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		87EE788226E4792D00B6A245 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		87EE788426E4816200B6A245 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		87EE788626E493DA00B6A245 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		87EE788826E503F400B6A245 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			children = (
 				87EE786A26E45F0F00B6A245 /* It_GuhsoApp.swift */,
 				87EE786C26E45F0F00B6A245 /* ContentView.swift */,
+				87EE788626E493DA00B6A245 /* Country.swift */,
 				87EE788426E4816200B6A245 /* NewsListView.swift */,
 				87EE788226E4792D00B6A245 /* String+Extension.swift */,
 				87EE788026E46D8E00B6A245 /* ArticleViewModel.swift */,
@@ -76,6 +81,7 @@
 				87EE787E26E465B100B6A245 /* NewsViewModel.swift */,
 				87EE786E26E45F1300B6A245 /* Assets.xcassets */,
 				87EE787026E45F1300B6A245 /* Preview Content */,
+				87EE788826E503F400B6A245 /* CountryListView.swift */,
 			);
 			path = "It Guhso";
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 				87EE787B26E4618C00B6A245 /* News.swift in Sources */,
 				87EE788126E46D8E00B6A245 /* ArticleViewModel.swift in Sources */,
 				87EE788526E4816200B6A245 /* NewsListView.swift in Sources */,
+				87EE788926E503F500B6A245 /* CountryListView.swift in Sources */,
+				87EE788726E493DB00B6A245 /* Country.swift in Sources */,
 				87EE787926E45FD400B6A245 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
