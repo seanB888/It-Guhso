@@ -69,6 +69,7 @@
 		87EE786926E45F0F00B6A245 /* It Guhso */ = {
 			isa = PBXGroup;
 			children = (
+				87EE788826E503F400B6A245 /* CountryListView.swift */,
 				87EE786A26E45F0F00B6A245 /* It_GuhsoApp.swift */,
 				87EE786C26E45F0F00B6A245 /* ContentView.swift */,
 				87EE788626E493DA00B6A245 /* Country.swift */,
@@ -81,7 +82,6 @@
 				87EE787E26E465B100B6A245 /* NewsViewModel.swift */,
 				87EE786E26E45F1300B6A245 /* Assets.xcassets */,
 				87EE787026E45F1300B6A245 /* Preview Content */,
-				87EE788826E503F400B6A245 /* CountryListView.swift */,
 			);
 			path = "It Guhso";
 			sourceTree = "<group>";

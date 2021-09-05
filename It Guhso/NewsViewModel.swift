@@ -11,10 +11,22 @@ class NewsViewModel: ObservableObject {
     @Published var articles: [ArticleViewModel] = []
     @Published var country = Country.country(code: Constants.country)
     @Published var isLoading = false
+    @Published var totalResults = 0
+    @Published var currentPage = 1
+    
+    var numPages: Int {
+        (Double(totalResults / 20) == Double(totalResults) / 20.0) ? (totalResults / 20) : (totalResults / 20) + 1
+    }
     
     var countryEndPoint: String {
-        Constants.baseURL + "?country=" + country.code + "&apiKey=" + Constants.APIKEY
+        Constants.baseURL + "?country=" + country.code + "&page"
+        + String(currentPage) + "&apiKey=" + Constants.APIKEY
     }
+    
+    func incrementPage() {
+        currentPage = (currentPage == numPages) ? 1 : currentPage + 1
+    }
+    
     func getNews() {
         isLoading = true
         if #available(iOS 15, *) {
